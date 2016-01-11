@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'sushi_lang'
+require "optparse"
+
+params = ARGV.getopts("", "brainfuck:")
+
+if params["brainfuck"]
+  puts Lang::Brainfuck.new(params["brainfuck"]).compile
+else
+  sushi = Lang::Sushi.new(ARGF.filename)
+  sushi.compile
+  sushi.execute
+end
