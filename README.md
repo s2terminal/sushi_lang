@@ -4,19 +4,12 @@ Irasshaimase! This is the perfect language.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it yourself as:
 
-```ruby
-gem 'sushi_lang'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install sushi_lang
+$ gem install specific_install
+$ gem specific_install -l https://github.com/s2terminal/sushi_lang.git
+```
 
 ## Usage
 
