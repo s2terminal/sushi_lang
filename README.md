@@ -2,6 +2,19 @@
 
 Irasshaimase! This is the perfect language.
 
+## Syntax
+
+|strings|meaning|
+|--|--|
+|し|pointer_increment|
+|すし|pointer_decrement|
+|すすし|pointer_value_increment|
+|すすすし|pointer_value_decrement|
+|すすすすし|output|
+|すすすすすし|input|
+|すすすすすすし|jump_forward|
+|すすすすすすすし|jump_backward|
+
 ## Installation
 
 Install it yourself as:
