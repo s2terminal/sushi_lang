@@ -5,7 +5,7 @@ Irasshaimase! This is the perfect language.
 ## Syntax
 
 |strings|meaning|
-|--|--|
+|---|---|
 |し|pointer_increment|
 |すし|pointer_decrement|
 |すすし|pointer_value_increment|
